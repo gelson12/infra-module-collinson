@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.terraformrc
+terraform.rc
+
+# Vars (keep secrets out of git)
+*.tfvars
+*.tfvars.json
+
+# Zip / logs / misc
+*.zip
+*.log
+
+# Python
+.venv/
+__pycache__/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
